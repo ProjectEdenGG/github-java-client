@@ -42,7 +42,7 @@ public interface Issue extends CloseTracking {
 
   /** ID. */
   @Nullable
-  Integer id();
+  Long id();
 
   /** URL. */
   @Nullable
