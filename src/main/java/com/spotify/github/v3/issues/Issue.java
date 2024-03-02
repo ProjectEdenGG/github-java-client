@@ -20,7 +20,6 @@
 
 package com.spotify.github.v3.issues;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.spotify.github.CloseTracking;
