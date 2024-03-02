@@ -92,12 +92,7 @@ public interface Issue extends CloseTracking {
   @Nullable
   List<Label> labels();
 
-  /** Login for the user that this issue should be assigned to. */
-  @JsonInclude(JsonInclude.Include.NON_ABSENT)
-  Optional<User> assignee();
-
   /** Logins for the users that this issue should be assigned to. */
-  @JsonInclude(JsonInclude.Include.NON_EMPTY)
   @Nullable
   List<User> assignees();
 
